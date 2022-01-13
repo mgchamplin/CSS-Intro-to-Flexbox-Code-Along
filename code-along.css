@@ -1,3 +1,44 @@
 nav {
-  display: none;
+}
+
+img {
+  max-width: 175px;
+  height: 125px;
+}
+
+* {
+  /*border: 1px solid teal;*/
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  max-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: ;
+}
+
+ul {
+  list-style: :none;
+  padding-left:0;
+}
+/*
+@media (min-width:600px)
+{
+  .container {
+    flex-direction: column;
+  }
+
+  nav > ul {
+    display :flex;
+  }
 }
